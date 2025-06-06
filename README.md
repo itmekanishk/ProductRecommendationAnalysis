@@ -1,5 +1,5 @@
 # ProductRecommendationAnalysis
-.
+
 ├── amazon.csv                # Product dataset
 ├── Analysis.ipynb           # Jupyter notebook for initial data exploration
 ├── Product.ipynb            # Recommender logic demonstration (notebook form)
@@ -21,10 +21,20 @@ product_name, category, and about_product columns are combined into a single tex
 
 TF-IDF vectorization is applied to this text to represent each product numerically.
 
+
+
+
+
+
 2. Similarity Calculation
 Cosine similarity is computed between all product vectors.
 
 The most similar products are retrieved using this similarity matrix.
+
+
+
+
+
 
 3. Streamlit Interface
 A simple UI lets users select a product.
@@ -32,11 +42,14 @@ A simple UI lets users select a product.
 On clicking "Show Recommendation", it displays 5 visually similar products (with images and names).
 
 
+
+
+
 🚀 Getting Started
 🔧 Prerequisites
 Ensure you have Python installed. Then install dependencies:
 
-pip install pandas scikit-learn streamlit
+->pip install pandas scikit-learn streamlit
 
 
 💻 Run the Application
@@ -45,20 +58,24 @@ pip install pandas scikit-learn streamlit
 
 1.Generate Pickle Files (Optional):
 
-python Analysis.py
+->python Analysis.py
 
 
 2.View Data (Optional):
 
 
-python py_view.py
+->python py_view.py
 
 
 
 3.Start the Streamlit App:
 
 
-streamlit run Recommendation.py
+->streamlit run Recommendation.py
+
+
+
+
 
 
 
